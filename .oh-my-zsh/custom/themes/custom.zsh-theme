@@ -14,9 +14,6 @@ local user='%n@%m'
 test $UID -eq 0 && user='%{$fg[red]%}%n%{$reset_color%}@%m'
 
 local git_status='%{$bold_color%}$(git_prompt_status)%{$reset_color%}$(git_prompt_info)'
-local return_code='%(?..%{$fg[red]%}%? ↵%{$reset_color%})'
 
-PROMPT="
-${user}
-${git_status} %~ %(!.#.>) "
-RPROMPT="${return_code}"
+PROMPT="${user}:%~# "
+RPROMPT="${git_status}"
