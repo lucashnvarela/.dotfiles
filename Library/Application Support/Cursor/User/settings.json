@@ -2,8 +2,6 @@
   "update.mode": "manual",
   "update.showReleaseNotes": false,
 
-  "security.workspace.trust.untrustedFiles": "newWindow",
-
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0.25,
 
@@ -74,6 +72,21 @@
   "diffEditor.hideUnchangedRegions.enabled": true,
   "diffEditor.ignoreTrimWhitespace": true,
   "diffEditor.renderSideBySide": true,
+
+  "biome.enabled": true,
+  "biome.suggestInstallingGlobally": false,
+
+  "typescript.experimental.useTsgo": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "biomejs.biome",
+  },
 
   "vim.easymotion": true,
   "vim.useSystemClipboard": true,
