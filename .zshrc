@@ -45,8 +45,9 @@ bindkey "^n" history-search-forward
 alias gss="$HOME/repos/gss/gss.sh"
 
 # -ls
-alias ll="ls -l"
-alias l="ls -lA"
+alias ls="eza"
+alias ll="eza --long --git"
+alias l="eza --all --long --git"
 
 # -git
 alias gb="git branch"
