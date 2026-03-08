@@ -21,6 +21,8 @@ plugins=(
   fzf
   fzf-tab
   tmux
+  docker-compose
+  golang
 )
 
 source $ZSH/oh-my-zsh.sh
