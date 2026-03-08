@@ -1,4 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
+export SDKMAN_DIR="$HOME/.sdkman"
 
 ZSH_THEME="custom"
 
@@ -23,6 +24,8 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit && compinit # load completions
+
+source $SDKMAN_DIR/bin/sdkman-init.sh
 
 # history
 HISTFILE=$HOME/.zsh_history
