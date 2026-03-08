@@ -8,6 +8,8 @@ zstyle ':omz:update' mode reminder
 zstyle ':omz:update' frequency 7
 
 zstyle ':completion:*' menu no # disable completion menu
+zstyle ':fzf-tab:*' fzf-flags --bind=tab:accept
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always $realpath' # preview directory's content
 
 # tmux plugin
 ZSH_TMUX_AUTOSTART=true
