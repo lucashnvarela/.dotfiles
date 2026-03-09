@@ -1,5 +1,13 @@
 [
   {
+    "key": "ctrl+l",
+    "command": "workbench.action.moveEditorToRightGroup"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.moveEditorToLeftGroup"
+  },
+  {
     "key": "alt+h",
     "command": "workbench.action.previousEditor"
   },
@@ -27,10 +35,10 @@
   },
   {
     "key": "cmd+shift+g",
-    "command": "-editor.action.previousMatchFindAction",
+    "command": "-editor.action.previousMatchFindAction"
   },
   {
     "key": "cmd+shift+g",
-    "command": "workbench.view.scm",
+    "command": "workbench.view.scm"
   },
 ]
