@@ -31,7 +31,7 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.minimap.enabled": false,
   "editor.links": false,
-  "editor.cursorSurroundingLines": 9000, 
+  "editor.cursorSurroundingLines": 8,
   "editor.lineNumbers": "relative",
   "editor.parameterHints.enabled": false,
   "editor.semanticHighlighting.enabled": false,
@@ -88,6 +88,7 @@
     "editor.defaultFormatter": "biomejs.biome",
   },
 
+  "vim.vimrc.enable": true,
   "vim.easymotion": true,
   "vim.useSystemClipboard": true,
   "extensions.experimental.affinity": {
