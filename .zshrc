@@ -13,7 +13,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always $realpath' # 
 
 # tmux plugin
 ZSH_TMUX_AUTOSTART=true
-ZSH_TMUX_DEFAULT_SESSION_NAME=main
+ZSH_TMUX_DEFAULT_SESSION_NAME=tmux
 
 plugins=(
   zsh-autosuggestions
@@ -21,6 +21,7 @@ plugins=(
   fzf
   fzf-tab
   tmux
+  ssh
   docker-compose
   golang
 )
