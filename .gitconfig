@@ -1,6 +1,7 @@
 [user]
 	name = lucas.varela
 	email = lucashnvarela.code@gmail.com
+	signingkey = D14507F5D6C9D580
 
 [init]
 	defaultbranch = main
@@ -34,6 +35,9 @@
 
 [stash]
 	showIncludeUntracked = true
+
+[commit]
+	gpgSign = true
 
 [push]
 	autoSetupRemote = true
@@ -93,6 +97,3 @@
 	branch = magenta
 	tag = green
 	remoteBranch = yellow
-
-[url "git@github.com:"]
-	insteadOf = "gh:"
