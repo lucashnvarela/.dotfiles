@@ -17,6 +17,7 @@
   "workbench.iconTheme": "symbols",
   "symbols.hidesExplorerArrows": false,
 
+  "terminal.integrated.defaultProfile.osx": "tmux",
   "terminal.integrated.fontFamily": "Menlo",
   "terminal.integrated.fontSize": 12,
 
