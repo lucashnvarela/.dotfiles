@@ -14,13 +14,16 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always $realpath' # 
 zstyle ':omz:plugins:nvm' lazy yes
 zstyle ':omz:plugins:nvm' autoload yes # autoload node when .nvmrc is present
 
-# tmux plugin
+zstyle ':omz:plugins:eza' show-group no
+zstyle ':omz:plugins:eza' git-status yes
+
 ZSH_TMUX_AUTOSTART=true
 ZSH_TMUX_DEFAULT_SESSION_NAME=tmux
 
 plugins=(
   zsh-autosuggestions
   zoxide
+  eza
   fzf
   fzf-tab
   tmux
@@ -48,13 +51,7 @@ setopt hist_save_no_dups
 bindkey "^p" history-search-backward
 bindkey "^n" history-search-forward
 
-# aliases
-alias gss="$HOME/repos/gss/gss.sh"
-
-# -ls
-alias ls="eza"
-alias ll="eza --long --git"
-alias l="eza --all --long --git"
+alias gss=$HOME/repos/gss/gss
 
 # -git
 alias gb="git branch"
