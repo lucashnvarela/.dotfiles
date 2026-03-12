@@ -29,6 +29,7 @@ plugins=(
   fzf-tab
   tmux
   ssh
+  git
   docker-compose
   golang
   nvm
@@ -49,23 +50,5 @@ bindkey "^p" history-search-backward
 bindkey "^n" history-search-forward
 
 alias gss=$HOME/repos/gss/gss
-
-# -git
-alias gb="git branch"
-alias gba="git branch --all"
-alias ga="git add"
-alias gd="git diff"
-alias gc="git commit --message"
-alias gca="git commit --amend --no-edit"
-alias gx="git checkout"
-alias gxn="git checkout -b"
-alias gph="git push"
-alias gpl="git pull"
-alias gs="git status"
-alias gm="git merge"
-alias gi="git init"
-alias gcl="git clone"
-alias gl="git log --all \
-  --pretty=format:'%C(magenta)%h %C(white)%an %ar %C(auto)%D %n%s %n'"
 
 source $SDKMAN_DIR/bin/sdkman-init.sh
