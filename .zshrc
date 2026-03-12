@@ -11,6 +11,9 @@ zstyle ':completion:*' menu no # disable completion menu
 zstyle ':fzf-tab:*' fzf-flags --bind=tab:accept
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always $realpath' # preview directory's content
 
+zstyle ':omz:plugins:nvm' lazy yes
+zstyle ':omz:plugins:nvm' autoload yes # autoload node when .nvmrc is present
+
 # tmux plugin
 ZSH_TMUX_AUTOSTART=true
 ZSH_TMUX_DEFAULT_SESSION_NAME=tmux
@@ -24,6 +27,7 @@ plugins=(
   ssh
   docker-compose
   golang
+  nvm
 )
 
 source $ZSH/oh-my-zsh.sh
