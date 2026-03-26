@@ -25,7 +25,7 @@ zstyle ':omz:plugins:eza' git-status yes
 ZSH_TMUX_AUTOSTART=true
 ZSH_TMUX_DEFAULT_SESSION_NAME=workspace
 
-plugins=(zsh-autosuggestions zoxide eza fzf fzf-tab tmux ssh git nvm docker-compose golang)
+plugins=(zsh-autosuggestions zoxide eza fzf fzf-tab tmux ssh git nvm golang)
 
 source $ZSH/oh-my-zsh.sh
 source $SDKMAN_DIR/bin/sdkman-init.sh
