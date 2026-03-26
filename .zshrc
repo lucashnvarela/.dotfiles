@@ -10,6 +10,7 @@ ZSH_COMPDUMP=$ZSH_CACHE_DIR/completions/.zcompdump
 # oh-my-zsh update
 zstyle ':omz:update' mode reminder
 zstyle ':omz:update' frequency 7
+zstyle ':omz:update' verbose minimal
 
 zstyle ':completion:*' menu no
 
