@@ -2,7 +2,10 @@ export ZSH=$HOME/.oh-my-zsh
 export NVM_DIR=$HOME/.nvm
 export SDKMAN_DIR=$HOME/.sdkman
 
-ZSH_THEME="custom"
+ZSH_THEME=custom
+
+ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
+ZSH_COMPDUMP=$ZSH_CACHE_DIR/completions/.zcompdump
 
 # oh-my-zsh update
 zstyle ':omz:update' mode reminder
