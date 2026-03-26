@@ -1,5 +1,4 @@
 export ZSH=$HOME/.oh-my-zsh
-export NVM_DIR=$HOME/.nvm
 export SDKMAN_DIR=$HOME/.sdkman
 
 ZSH_THEME=custom
@@ -37,8 +36,5 @@ HISTDUP=erase
 setopt appendhistory
 setopt sharehistory
 setopt hist_save_no_dups
-
-bindkey "^p" history-search-backward
-bindkey "^n" history-search-forward
 
 alias gss=$HOME/repos/gss/gss
