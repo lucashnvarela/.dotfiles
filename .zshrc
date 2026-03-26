@@ -4,9 +4,8 @@ export SDKMAN_DIR=$HOME/.sdkman
 ZSH_THEME=custom
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
-ZSH_COMPDUMP=$ZSH_CACHE_DIR/completions/.zcompdump
+ZSH_COMPDUMP=$ZSH_CACHE_DIR/.zcompdump
 
-# oh-my-zsh update
 zstyle ':omz:update' mode reminder
 zstyle ':omz:update' frequency 7
 zstyle ':omz:update' verbose minimal
